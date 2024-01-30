@@ -19,14 +19,13 @@ params:
     Content: >
       This blog will *generally* be book reviews/opinions. Some other.
       
-      - Content I like, not sure, dislike.
-      
-      - Content I find Alright, Mid, Eh.
-        
+      - You can view content by my [rating](ratings/), my [preferences](preference/), the content [tag](tags/) my reading [status](mystatus/) and [author](authors/).        
 taxonomies:
-    tag: tags
-    mystatus: mystatus
-    rating: ratings
+  tag: tags
+  mystatus: mystatus
+  rating: ratings
+  preference: preference
+  author: authors
 
 menu:
   main:
