@@ -1,0 +1,44 @@
+baseURL: 'https://example.org/'
+languageCode: 'en-us'
+title: Paper Coat's Blog
+theme: PaperMod
+
+params:
+  defaultTheme: dark
+  author: Paper Coat
+  DateFormat: "January 2, 2006"
+
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  UseHugoToc: true
+  showtoc: true
+  tocopen: false
+
+  homeInfoParams:
+    Title: "Hello Everyone" 
+    Content: >
+      This blog will *generally* be book reviews/opinions. Some other.
+      
+      - Content I like, not sure, dislike.
+      
+      - Content I find Alright, Mid, Eh.
+        
+taxonomies:
+    tag: tags
+    mystatus: mystatus
+    rating: ratings
+
+menu:
+  main:
+    - name: Tags
+      url: tags/
+      weight: 3
+    - name: Search
+      url: search/
+      weight: 10
+    - name: Archive
+      url: archives
+      weight: 2
+    - name: About
+      url: about/
+      weight: 1
