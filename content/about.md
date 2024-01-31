@@ -31,9 +31,9 @@ Why don't I use a numbered rating system? Honestly, because I just wanted to do 
 Good > Alright > Mid > Eh > Bad
 
 ### Preferences
-- I Liked it
-- I Disliked it
-- Neutral
+
+I Liked it vs Neutral vs I Disliked it
 
 ### Tags
-- Content Tags pertaining to the type of content
+
+Content Tags pertaining to the type of content
