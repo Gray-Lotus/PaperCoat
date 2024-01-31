@@ -4,6 +4,7 @@ title: Paper Coat's Blog
 theme: PaperMod
 
 mainsections: ["reviews"]
+enableEmoji: true
 
 params:
   defaultTheme: dark
@@ -32,20 +33,15 @@ taxonomies:
 
 menu:
   main:
-    - name: Tags
-      url: tags/
-      weight: 3
-    - name: Search
+    - name: 🔎︎
       url: search/
       weight: 10
     - name: Archive
       url: archives
-      weight: 2
+      weight: 3
     - name: About
       url: about/
       weight: 1
-      url: about/
-      weight: 7
     - name: Identifiers
       url: identifiers/
-      weight: 12
+      weight: 2

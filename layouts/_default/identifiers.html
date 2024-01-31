@@ -18,10 +18,11 @@
 
 <ul class="terms-tags">
     {{ with .Site.GetPage "mystatus/" }}
+    {{- $taxonomyObject := .Site.Taxonomies.mystatus}}
     {{- range.Pages}}
       <li>
-         <a href="{{ .Permalink }}">{{ .Name }} </a>
-      </li>     
+        <a href="{{ .Permalink }}">{{ .Name }}<sup>{{$taxonomyObject.Count .Name}}</sup></a>
+      </li>
     {{- end }}
  {{- end }}
 </ul>
@@ -34,9 +35,10 @@
 
 <ul class="terms-tags">
     {{ with .Site.GetPage "ratings/" }}
+    {{- $taxonomyObject := .Site.Taxonomies.ratings}}
     {{- range.Pages}}
       <li>
-         <a href="{{ .Permalink }}">{{ .Name }} </a>
+         <a href="{{ .Permalink }}">{{ .Name }} <sup>{{$taxonomyObject.Count .Name}}</sup></a>
       </li>     
     {{- end }}
  {{- end }}
@@ -50,10 +52,11 @@
 
 <ul class="terms-tags">
     {{ with .Site.GetPage "preference/" }}
+    {{- $taxonomyObject := .Site.Taxonomies.preference}}
     {{- range.Pages}}
       <li>
-         <a href="{{ .Permalink }}">{{ .Name }} </a>
-      </li>     
+         <a href="{{ .Permalink }}">{{ .Name }} <sup>{{$taxonomyObject.Count .Name}}</sup> </a>
+      </li>
     {{- end }}
  {{- end }}
 </ul>
@@ -67,9 +70,10 @@
 
 <ul class="terms-tags">
     {{ with .Site.GetPage "authors/" }}
+    {{- $taxonomyObject := .Site.Taxonomies.authors}}
     {{- range.Pages}}
       <li>
-         <a href="{{ .Permalink }}">{{ .Name }} </a>
+         <a href="{{ .Permalink }}">{{ .Name }} <sup>{{$taxonomyObject.Count .Name}}</sup></a>
       </li>     
     {{- end }}
  {{- end }}
@@ -84,9 +88,10 @@
 
 <ul class="terms-tags">
     {{ with .Site.GetPage "tags/" }}
+    {{- $taxonomyObject := .Site.Taxonomies.tags}}
     {{- range.Pages}}
       <li>
-         <a href="{{ .Permalink }}">{{ .Name }} </a>
+         <a href="{{ .Permalink }}">{{ .Name }} <sup>{{$taxonomyObject.Count .Name}}</sup></a>
       </li>     
     {{- end }}
  {{- end }}
