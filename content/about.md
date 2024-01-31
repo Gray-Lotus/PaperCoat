@@ -17,14 +17,23 @@ Not really anyone, I just read these books and always wanted to catalog them in 
 
 ## Rating System?
 
-Why don't I use a numbered rating system? Because them I would have to explain my criteria. I am not reviewer, I just publish my opinions. Opinions which are very subjective.
+Why don't I use a numbered rating system? Honestly, because I just wanted to do the reviews based on feel rather than actual numbers. I also wasn't sure of a criteria strucuture so I didn't feel like making one.
 
-## Useful Links
+### Reading Status
 
-These are some useful links. Why put them here and not under a menu? Because I don't like clutter and I figured people are not gonna use them that often anyway.
+- Reading: Currently reading
+- Dropped: I dropped the novel
+- Finished: means I finished the novel
+- On-Hold: decided to come back to (could be any reason like no raw or waiting for chapters to build up)
 
-### My Status:
-- Dropped
-- Reading 
-- Finished
-- On-hold 
+### Rating
+
+Good > Alright > Mid > Eh > Bad
+
+### Preferences
+- I Liked it
+- I Disliked it
+- Neutral
+
+### Tags
+- Content Tags pertaining to the type of content

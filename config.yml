@@ -22,7 +22,7 @@ params:
     Content: |
       This blog will *generally* be book reviews/opinions. Some other.
       - View content by my [identifiers](identifiers/).
-      - For more information check the [About](about/) page.
+      - For more information check the [about](about/) page.
 taxonomies:
   tag: tags
   mystatus: mystatus
