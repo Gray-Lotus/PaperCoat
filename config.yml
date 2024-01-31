@@ -16,16 +16,16 @@ params:
 
   homeInfoParams:
     Title: "Hello Everyone" 
-    Content: >
+    Content: |
       This blog will *generally* be book reviews/opinions. Some other.
-      
-      - You can view content by my [rating](ratings/), my [preferences](preference/), the content [tag](tags/) my reading [status](mystatus/) and [author](authors/).        
+      - View content by my [rating](ratings/), my [preferences](preference/), the content [tag](tags/), my reading [status](mystatus/), and [author](authors/).        
 taxonomies:
   tag: tags
   mystatus: mystatus
   ratings: ratings
   preference: preference
   author: authors
+  content: content
 
 menu:
   main:
