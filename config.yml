@@ -23,7 +23,7 @@ params:
 taxonomies:
   tag: tags
   mystatus: mystatus
-  rating: ratings
+  ratings: ratings
   preference: preference
   author: authors
 

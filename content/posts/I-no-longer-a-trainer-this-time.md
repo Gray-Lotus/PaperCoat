@@ -2,9 +2,10 @@
 title: 'I am No Longer a Trainer This Time'
 mystatus: ['reading']
 tags: ['review','fanfiction','pokemon','rancher','lighthearted']
-rating: ['good']
+ratings: ['good']
 preference: ['Like']
 authors: ['骑车的风']
+description: "A rancher in the Paldia region"
 date: 2024-01-30T13:24:05-05:00
 ---
 ## Logistics
