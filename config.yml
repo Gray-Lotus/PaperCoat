@@ -3,6 +3,8 @@ languageCode: 'en-us'
 title: Paper Coat's Blog
 theme: PaperMod
 
+mainsections: ["reviews"]
+
 params:
   defaultTheme: dark
   author: Paper Coat
@@ -18,7 +20,8 @@ params:
     Title: "Hello Everyone" 
     Content: |
       This blog will *generally* be book reviews/opinions. Some other.
-      - View content by my [rating](ratings/), my [preferences](preference/), the content [tag](tags/), my reading [status](mystatus/), and [author](authors/).        
+      - View content by my [identifiers](identifiers/).
+      - For more information check the [About](about/) page.
 taxonomies:
   tag: tags
   mystatus: mystatus
@@ -41,3 +44,8 @@ menu:
     - name: About
       url: about/
       weight: 1
+      url: about/
+      weight: 7
+    - name: Identifiers
+      url: identifiers/
+      weight: 12

@@ -1,0 +1,97 @@
+{{- define "main" }}
+
+
+{{- if .Title }}
+<header class="page-header">
+    <h1>{{ .Title }}</h1>
+    {{- if .Description }}
+    <div class="post-description">
+        {{ .Description }}
+    </div>
+    {{- end }}
+</header>
+{{- end }}
+
+<details>
+
+  <Summary> Reading Status </summary>
+
+<ul class="terms-tags">
+    {{ with .Site.GetPage "mystatus/" }}
+    {{- range.Pages}}
+      <li>
+         <a href="{{ .Permalink }}">{{ .Name }} </a>
+      </li>     
+    {{- end }}
+ {{- end }}
+</ul>
+
+</details>
+
+<details>
+
+  <summary> Rating </summary>
+
+<ul class="terms-tags">
+    {{ with .Site.GetPage "ratings/" }}
+    {{- range.Pages}}
+      <li>
+         <a href="{{ .Permalink }}">{{ .Name }} </a>
+      </li>     
+    {{- end }}
+ {{- end }}
+</ul>
+
+</details>
+
+<details>
+
+  <summary>  Preferences </summary>
+
+<ul class="terms-tags">
+    {{ with .Site.GetPage "preference/" }}
+    {{- range.Pages}}
+      <li>
+         <a href="{{ .Permalink }}">{{ .Name }} </a>
+      </li>     
+    {{- end }}
+ {{- end }}
+</ul>
+
+</details>
+
+
+<details>
+
+  <summary> Authors </summary>
+
+<ul class="terms-tags">
+    {{ with .Site.GetPage "authors/" }}
+    {{- range.Pages}}
+      <li>
+         <a href="{{ .Permalink }}">{{ .Name }} </a>
+      </li>     
+    {{- end }}
+ {{- end }}
+</ul>
+
+</details>
+
+
+<details>
+
+  <summary> Tags </summary>
+
+<ul class="terms-tags">
+    {{ with .Site.GetPage "tags/" }}
+    {{- range.Pages}}
+      <li>
+         <a href="{{ .Permalink }}">{{ .Name }} </a>
+      </li>     
+    {{- end }}
+ {{- end }}
+</ul>
+
+</details>
+
+{{- end }}{{/* end main */ -}}
